@@ -1,0 +1,19 @@
+{
+  "name": "zero-trust-academic-microservices",
+  "version": "1.0.0",
+  "description": "Zero Trust Microservices Architecture with Node.js & Express",
+  "main": "gateway.js",
+  "scripts": {
+    "seed": "node seed.js",
+    "gateway": "node gateway.js",
+    "nilai": "node service-nilai.js",
+    "transkrip": "node service-transkrip.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
